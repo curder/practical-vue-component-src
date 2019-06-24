@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="antialiased text-gray-900 flex flex-col min-h-screen bg-gray-200">
+    <router-view class="flex-1"/>
+    <div class="flex-shrink-0 py-12 text-center">
+      <div>
+        <router-link class="font-semibold text-gray-700 hover:underline" to="/">Home</router-link>
+        <span class="mx-4 text-gray-500">|</span>
+        <router-link
+          class="font-semibold text-gray-700 hover:underline"
+          to="/smooth-scrolling"
+        >Smooth Scrolling</router-link>
+      </div>
+      <div class="mt-2">
+        <a
+          href="https://github.com/curder/practical-vue-component"
+          class="text-sm font-semibold text-gray-600 hover:underline"
+        >Source on GitHub</a>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+  name: "app",
+  components: {}
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
