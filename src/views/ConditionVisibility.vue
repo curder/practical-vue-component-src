@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
-    <h2 class="text-2xl font-bold mb-8 text-center">条件隐藏</h2>
-
+    <h2 class="text-2xl font-bold my-8 text-center">条件隐藏</h2>
+    <p class="mb-8 text-center text-gray-600">鼠标滚动右下脚出现“新增按钮”，当鼠标滚动到视窗出现“新增文章”则隐藏右下角“新增按钮”</p>
     <div class="w/3/4 bg-gray-200 p-4" style="height: 2000px">
       <a href="#" id="new-post-link" class="text-blue-500 hover:underline">新增文章</a>
       <visible when-hidden="#new-post-link">
