@@ -3,12 +3,9 @@
     <router-view class="flex-1"/>
     <div class="flex-shrink-0 py-12 text-center">
       <div>
-        <router-link class="font-semibold text-gray-700 hover:underline" to="/">Home</router-link>
+        <router-link class="font-semibold text-gray-700 hover:underline" to="/">首页</router-link>
         <span class="mx-4 text-gray-500">|</span>
-        <router-link
-          class="font-semibold text-gray-700 hover:underline"
-          to="/smooth-scrolling"
-        >Smooth Scrolling</router-link>
+        <router-link class="font-semibold text-gray-700 hover:underline" to="/smooth-scrolling">平滑滚动</router-link>
       </div>
       <div class="mt-2">
         <a
