@@ -8,6 +8,11 @@
         <router-link class="font-semibold text-gray-700 hover:underline" to="/smooth-scrolling">平滑滚动</router-link>
         <span class="mx-4 text-gray-500">|</span>
         <router-link class="font-semibold text-gray-700 hover:underline" to="/context-menus">下拉菜单</router-link>
+        <span class="mx-4 text-gray-500">|</span>
+        <router-link
+          class="font-semibold text-gray-700 hover:underline"
+          to="/condition-visibility"
+        >条件隐藏</router-link>
       </div>
       <div class="mt-2">
         <a
