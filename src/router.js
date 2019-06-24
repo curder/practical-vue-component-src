@@ -4,6 +4,7 @@ import Home from "./views/Home.vue";
 import SmoothScrolling from "./views/SmoothScrolling.vue";
 import ContextMenus from "./views/ContextMenus.vue";
 import ConditionVisibility from "./views/ConditionVisibility.vue";
+import Modals from "./views/Modals.vue";
 
 Vue.use(Router);
 
@@ -30,6 +31,11 @@ export default new Router({
       path: "/condition-visibility",
       name: "condition-visibility",
       component: ConditionVisibility
+    },
+    {
+      path: "/modals",
+      name: "modals",
+      component: Modals
     }
   ]
 });
