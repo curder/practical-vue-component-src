@@ -4,6 +4,10 @@ import router from "./router";
 
 import "@/assets/css/main.css";
 
+import Modal from "./plugins/modal/ModalPlugin.js";
+
+Vue.use(Modal);
+
 Vue.config.productionTip = false;
 
 new Vue({

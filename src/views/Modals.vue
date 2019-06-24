@@ -12,10 +12,11 @@
         >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, explicabo. Veritatis excepturi expedita harum doloribus molestiae incidunt laudantium, aliquid illum ab, repudiandae, repellat minus dicta! Repudiandae placeat quae officia est.</p>
 
         <template v-slot:footer>
-          <a
+          <button
+            @click="$model.hide('cancel-model')"
             class="bg-gray-200 rounded px-4 py-2 text-gray-800 hover:bg-gray-300 hover:text-gray-900"
             href="#"
-          >Cancle</a>
+          >Cancle</button>
           <a
             class="bg-blue-500 px-4 py-2 rounded ml-2 text-white hover:bg-blue-600"
             href="#continue-modal"
@@ -44,10 +45,7 @@
   </div>
 </template>
 <script>
-import Modal from "../components/Modal.vue";
 export default {
-  components: {
-    Modal
-  }
+  components: {}
 };
 </script>
