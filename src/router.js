@@ -5,6 +5,7 @@ import SmoothScrolling from "./views/SmoothScrolling.vue";
 import ContextMenus from "./views/ContextMenus.vue";
 import ConditionVisibility from "./views/ConditionVisibility.vue";
 import Modals from "./views/Modals.vue";
+import ConfirmationDialog from "./views/ConfirmationDialog.vue";
 
 Vue.use(Router);
 
@@ -36,6 +37,11 @@ export default new Router({
       path: "/modals",
       name: "modals",
       component: Modals
+    },
+    {
+      path: "/confirmation-dialog",
+      name: "confirmation-dialog",
+      component: ConfirmationDialog
     }
   ]
 });
