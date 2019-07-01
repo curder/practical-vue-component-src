@@ -8,6 +8,7 @@ import Modals from "./views/Modals.vue";
 import ConfirmationDialog from "./views/ConfirmationDialog.vue";
 import NumberCount from "./views/NumberCount.vue";
 import Carousel from "./views/Carousel.vue";
+import Faqs from './views/Faqs.vue';
 
 Vue.use(Router);
 
@@ -54,6 +55,11 @@ export default new Router({
       path: "/carousel",
       name: "carousel",
       component: Carousel
+    },
+    {
+      path: "/faqs",
+      name: "faqs",
+      component: Faqs,
     }
   ]
 });
