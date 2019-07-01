@@ -1,4 +1,5 @@
 let Plugin = {
+  // eslint-disable-next-line
   install(Vue, options = {}) {
     Vue.component("modal", require("./Component.vue").default);
 
@@ -21,7 +22,7 @@ let Plugin = {
         } else {
           params = message;
         }
-
+        // eslint-disable-next-line
         return new Promise((resolve, reject) => {
           this.show("dialog", params);
 

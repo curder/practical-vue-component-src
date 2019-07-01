@@ -29,7 +29,7 @@
       <div class="mt-2">
         <a
           target="_blank"
-          href="https://github.com/curder/practical-vue-component"
+          href="https://github.com/curder/practical-vue-component-src"
           class="text-sm font-semibold text-gray-600 hover:underline"
         >Source on GitHub</a>
       </div>
