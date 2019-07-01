@@ -8,6 +8,7 @@ let path = require("path");
 // https://github.com/FullHuman/purgecss\#extractor
 class TailwindExtractor {
   static extract(content) {
+    // eslint-disable-next-line
     return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
   }
 }
