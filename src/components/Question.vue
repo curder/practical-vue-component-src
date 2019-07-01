@@ -34,7 +34,7 @@ export default {
       required: true,
     },
     currentIndex: {
-      type: Number | null,
+      type: Number,
       required: true,
     },
     isOpen: {

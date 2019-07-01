@@ -2,11 +2,14 @@
   <div class="bg-gray-100 flex items-center justify-center">
     <div style="width: 640px; height: 480px;">
       <carousel>
-        <img src="https://placeimg.com/640/480/any?1">
-        <img src="https://placeimg.com/640/480/any?2">
-        <img src="https://placeimg.com/640/480/any?3">
-        <img src="https://placeimg.com/640/480/any?4">
-        <img src="https://placeimg.com/640/480/any?5">
+        <img src="@/assets/images/00.jpg">
+        <img src="@/assets/images/01.jpg">
+        <img src="@/assets/images/02.jpg">
+        <img src="@/assets/images/03.jpg">
+        <img src="@/assets/images/04.jpg">
+        <img src="@/assets/images/05.jpg">
+        <img src="@/assets/images/06.jpg">
+        <img src="@/assets/images/07.jpg">
       </carousel>
     </div>
   </div>
