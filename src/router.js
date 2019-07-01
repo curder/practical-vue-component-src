@@ -6,6 +6,7 @@ import ContextMenus from "./views/ContextMenus.vue";
 import ConditionVisibility from "./views/ConditionVisibility.vue";
 import Modals from "./views/Modals.vue";
 import ConfirmationDialog from "./views/ConfirmationDialog.vue";
+import NumberCount from "./views/NumberCount.vue";
 
 Vue.use(Router);
 
@@ -42,6 +43,11 @@ export default new Router({
       path: "/confirmation-dialog",
       name: "confirmation-dialog",
       component: ConfirmationDialog
+    },
+    {
+      path: "/number-count",
+      name: "number-count",
+      component: NumberCount
     }
   ]
 });
