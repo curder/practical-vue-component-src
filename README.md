@@ -1,6 +1,6 @@
 # practical-vue-component
 
-[![Build Status](https://travis-ci.org/curder/practical-vue-component-src.svg?branch=master)](https://travis-ci.org/curder/practical-vue-component-src)
+[![Build Status](https://travis-ci.org/curder/practical-vue-component-src.svg?branch=gh-pages)](https://travis-ci.org/curder/practical-vue-component-src)
 
 ## Project setup
 
