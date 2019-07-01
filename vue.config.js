@@ -13,10 +13,11 @@ class TailwindExtractor {
 }
 
 module.exports = {
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/practical-vue-component/" : "/",
   configureWebpack: {
     plugins: [
       new PurgecssPlugin({
-
         // Specify the locations of any files you want to scan for class names.
         paths: glob.sync([
           path.join(__dirname, "./**/*.html"),
@@ -35,4 +36,4 @@ module.exports = {
       })
     ]
   }
-}
+};
