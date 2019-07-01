@@ -28,6 +28,7 @@ export default {
       default: true
     },
     autoPlay: {
+      /* eslint-disable */
       type: Boolean | Number,
       default: true
     },
