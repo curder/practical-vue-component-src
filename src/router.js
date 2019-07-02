@@ -9,7 +9,7 @@ import ConfirmationDialog from "./views/ConfirmationDialog.vue";
 import NumberCount from "./views/NumberCount.vue";
 import Carousel from "./views/Carousel.vue";
 import Faqs from './views/Faqs.vue';
-import DingTop from './views/DingTop.vue';
+import PinnedTop from './views/PinnedTop.vue';
 
 Vue.use(Router);
 
@@ -63,9 +63,9 @@ export default new Router({
       component: Faqs,
     },
     {
-      path: "/ding-top",
-      name: "ding-top",
-      component: DingTop,
+      path: "/pinned-top",
+      name: "pinned-top",
+      component: PinnedTop,
     }
   ]
 });

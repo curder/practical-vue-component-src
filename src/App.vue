@@ -36,7 +36,7 @@
         <router-link class="font-semibold text-gray-700 hover:underline" to="/faqs">切换问答</router-link>
 
         <span class="mx-4 text-gray-500">|</span>
-        <router-link class="font-semibold text-gray-700 hover:underline" to="/ding-top">钉在顶部</router-link>
+        <router-link class="font-semibold text-gray-700 hover:underline" to="/pinned-top">钉在顶部</router-link>
       </div>
       <div class="mt-2">
         <a
