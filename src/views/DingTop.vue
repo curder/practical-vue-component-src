@@ -11,19 +11,20 @@
     </div>
 </template>
 <script>
+import {throttle} from 'lodash';
 export default {
     mounted() {
         let el = this.$refs['ping-top'];
         const originOffsetTop = el.offsetTop;
         let classList = ['fixed', 'w-full', 'top-0', 'z-10'];
 
-        window.addEventListener('scroll', () => {
+        window.addEventListener('scroll', throttle(() => {
             if(window.scrollY >= originOffsetTop) {
                 el.classList.add(...classList);
             } else {
                 el.classList.remove(...classList);
             }
-        });
+        }, 300));
     }
 }
 </script>
