@@ -10,6 +10,7 @@ import NumberCount from "./views/NumberCount.vue";
 import Carousel from "./views/Carousel.vue";
 import Faqs from './views/Faqs.vue';
 import PinnedTop from './views/PinnedTop.vue';
+import IndexSticky from './views/IndexSticky.vue';
 
 Vue.use(Router);
 
@@ -66,6 +67,11 @@ export default new Router({
       path: "/pinned-top",
       name: "pinned-top",
       component: PinnedTop,
+    },
+    {
+      path: "/index-sticky",
+      name: "index-sticky",
+      component: IndexSticky,
     }
   ]
 });
