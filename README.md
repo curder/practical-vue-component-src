@@ -1,6 +1,9 @@
 # practical-vue-component
 
-[![Build Status](https://travis-ci.org/curder/practical-vue-component-src.svg?branch=gh-pages)](https://travis-ci.org/curder/practical-vue-component-src)
+[![github pages](https://github.com/curder/practical-vue-component-src/actions/workflows/build-docs.yml/badge.svg?branch=master)](https://github.com/curder/practical-vue-component-src/actions/workflows/build-docs.yml)
+
+[![pages-build-deployment](https://github.com/curder/practical-vue-component-src/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/curder/practical-vue-component-src/actions/workflows/pages/pages-build-deployment)
+
 
 ## Project setup
 
